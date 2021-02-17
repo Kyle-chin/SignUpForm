@@ -5,4 +5,9 @@
     <string name="name">Name</string>
     <string name="password">Password</string>
     <string name="save">Save</string>
+
+    <string name="txtNameError">Error Empty</string>
+    <string name="txtEmailError">Error Empty</string>
+    <string name="txtPasswordError">Error Empty</string>
+    <string name="txtConfirmError">Error Matching</string>
 </resources>
