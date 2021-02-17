@@ -59,6 +59,7 @@ public class FormActivity extends AppCompatActivity {
                 else{
                     ConfirmError.setVisibility(View.INVISIBLE);
                 }
+                //commit 2 was not saved for some reason
                 if((TextUtils.isEmpty(Password.getText().toString()) != true) && (TextUtils.isEmpty(Confirm_Password.getText().toString()) != true)){
                     if((TextUtils.isEmpty(Name.getText().toString()) != true) && (TextUtils.isEmpty(Email.getText().toString()) != true)){
                         if(Password.getText().toString().equals(Confirm_Password.getText().toString())){
